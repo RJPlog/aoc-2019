@@ -150,3 +150,17 @@ a|* today VBA did a very good job, better than me. For testing purpose I started
    *Lessons Learned 2: With word the number of elements can very easily counted. I copied the puzzle input to a word documnent, at "Überprüfen" you can find a icon for counting words and signs.
    
 |====
+
+
+=== Day 25
+[cols="1,10"]
+|====
+a|{RJPlog}
+a|* What a great experience. Today I struggled with preparing all the possible combinations of items into ascii instructions for the IntCom. At the end my program stopped with the output: a	b	l	e	 	t	o	 	g	e	t	 	i	n	 	b	y	 	t	y	p	i	n	g	 and then nothing else came. It took half an hour to recognise, that some days ago I had an issue with an endless loop and put in a hard stop when program counter went over 3000. Exactly at this day the puzzle output was starting at 3001. After removing the hard stopp, it took 2 minutes and the puzzle output was there. 
+*Lesson Learned1: You should not put some commands in your code which are only workarounds for some other bugs not found. Some day you will stumble across those things. So take the time and find the real root cause and fix it.
+*Lessons Learned2: At a lot of days you needed the IntComputer, and so I always took my old code to start with. But I never made it to use it exactly as it was, I always had to modify, which lead to many versions and I lost completely the overview. Better to start putting some stuff in libarys, even if it takes more time at the beginning, otherwise you will not be able to really reuse your code. (I don't know how to built a libary in VBA, but maybe that means that I have to use something else next time)
+
+
+  .
+   
+|====
